@@ -1,0 +1,36 @@
+.keyboard {
+    width: 50%;
+    margin: 40px auto;
+}
+.keyboard span {
+    padding: 18px;
+    color: rgb(228, 14, 167);
+    background-color: white;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(228, 14, 167);
+    cursor: pointer;
+}
+.keyboard span:hover {
+    background-color: rgb(228, 14, 167);
+    color: white;
+}
+.firstrow,
+.secondrow,
+.thirdrow,
+.fourthrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 0px;
+}
+textarea {
+    width: 400px;
+    height: 200px;
+    outline: none;
+    border: 2px solid rgb(228, 14, 167);
+}
+.fourthrow {
+    margin-bottom: 20px;
+}
